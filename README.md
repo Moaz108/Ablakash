@@ -1,4 +1,4 @@
-# AR_RAG
+# Ablakash
 ## Progress: currently working on it and due to our limited quota in Azure, **I will close the server in 25/2/2026**
 
 ## Frontend repo: https://github.com/MohamedREDA-24/AR_APP
