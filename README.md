@@ -67,8 +67,8 @@ graph TD
     C -->|Analyze<br/>Conversation| D[Pinecone<br/>Vector DB]
     D --> E{Match<br/>Found?}
     E -->|Yes| F[Generate<br/>Recommendation]
-    E -->|No| H[CrewAI<br/>Web Scraping]
-    G --> F
+    E -->|No| G[CrewAI<br/>Web Scraping]
+    G --> I
     F --> H[AR<br/>Visualization]
     H --> I[3D Model<br/>Projection]
     I -->B
