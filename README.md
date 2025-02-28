@@ -105,6 +105,13 @@ Ensure you have the following installed:
 - Pinecone client
 - Kotlin (for mobile app development)
 
+## 🛠️ Technical Details 
+- Implemented a RAG pipeline using MPNet-Base-V2 for attribute extraction, embedding generation, and retrieval via Pinecone.
+- Designed a conversation state model with distinct phases: feature collection, recommendation, awaiting alternatives, ending, and restart confirmation.
+- Integrated CrewAI agents for automated furniture search, utilizing TavilyClient for web-based retrieval.
+- Enhanced AI-driven interpretation using BLIP + Gemini, enabling image-based feature extraction and furniture recommendation.
+- Developed AR functionality for real-time 3D visualization and personalized recommendations in a mobile app.
+- Currently working on fine-tuning the model using QLoRA for improved performance.
 ### Installation
 
 1. Clone the repository:
