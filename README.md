@@ -124,6 +124,7 @@ We implement a modular agent framework :
 - RAG Agent: Leverages Pinecone for semantic retrieval of furniture data
 - Web Scraper Agent: Fallback search via Tavily API when local matches fail
 - Router Function: Orchestrates agent workflow based on image-derived attributes (wall color, room dimensions, style)
+- **APK Link**: [https://qr.me-qr.com/gOSg8ov9](https://drive.google.com/file/d/1g1YO1wSseR9Uzukzkmi7j8wNo9RDh3nf/view?usp=drive_link)
 
 ## 📱 Mobile Backend Integration
 Kotlin Mobile App → FastAPI Middleware → Azure Cloud Services
