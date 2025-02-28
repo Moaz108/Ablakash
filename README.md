@@ -58,7 +58,19 @@ Revolutionizing interior design with intelligent furniture recommendations and i
 Ablakash is an AI-driven platform that transforms how users discover and visualize furniture for their spaces. Leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), the system analyzes user conversations to recommend optimal furniture from a curated database. If no match is found, it employs CrewAI for web scraping and searching across external sources.
 
 The platform integrates Augmented Reality (AR) to project 3D furniture models into users' rooms in real-time, enabling immersive visualization. Additionally, it provides tailored recommendations, including complementary furniture options to complete room designs. Deployed as a mobile app, Ablakash delivers a seamless, end-to-end experience for personalized interior design.
-
+## Use Case Diagram
+   graph TD
+       A[User Input] --> B(Mobile App)
+       B --> C{LLM/RAG Processing}
+       C -->|Analyze Conversation| D[Pinecone Vector DB<br/>Furniture Search]
+       D --> E{Match Found?}
+       E -->|Yes| F[Generate Recommendation<br/>with QLoRA-Tuned Model]
+       E -->|No| G[CrewAI Web Scraping<br/>External Search]
+       G --> F
+       F --> H[AR Visualization Engine]
+       H --> I[3D Model Projection<br/>+ Style Suggestions]
+       I --> J[User Feedback]
+       J -->|Reinforcement Learning| C
 ## Key Features
 
 - Intelligent Recommendations:
