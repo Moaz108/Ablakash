@@ -97,13 +97,6 @@ graph TD
    - Utilizes Pinecone for vector search, enabling fast and accurate retrieval of furniture options.
    - Deployed as a mobile app for on-the-go accessibility (using Kotlin).
 
-### Prerequisites
-Ensure you have the following installed:
-- Python 3.12
-- FastAPI
-- Uvicorn
-- Pinecone client
-- Kotlin (for mobile app development)
 
 ## 🛠️ Technical Details 
 - Implemented a RAG pipeline using MPNet-Base-V2 for attribute extraction, embedding generation, and retrieval via Pinecone.
@@ -112,6 +105,24 @@ Ensure you have the following installed:
 - Enhanced AI-driven interpretation using BLIP + Gemini, enabling image-based feature extraction and furniture recommendation.
 - Developed AR functionality for real-time 3D visualization and personalized recommendations in a mobile app.
 - Currently working on fine-tuning the model using QLoRA for improved performance.
+
+
+## Another Solution 
+We implement a modular agent framework :
+- Chat Agent: Manages user interaction and intent detection
+- RAG Agent: Leverages Pinecone for semantic retrieval of furniture data
+- Web Scraper Agent: Fallback search via Tavily API when local matches fail
+- Router Function: Orchestrates agent workflow based on image-derived attributes (wall color, room dimensions, style)
+  
+  ### Prerequisites
+Ensure you have the following installed:
+- Python 3.12
+- FastAPI
+- Uvicorn
+- Pinecone client
+- Kotlin (for mobile app development)
+
+  
 ### Installation
 
 1. Clone the repository:
