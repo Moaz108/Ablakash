@@ -1,4 +1,9 @@
 # Ablakash
+## Overview
+Ablakash is an AI-driven platform that transforms how users discover and visualize furniture for their spaces. Leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), the system analyzes user conversations to recommend optimal furniture from a curated database. If no match is found, it employs CrewAI for web scraping and searching across external sources.
+
+The platform integrates Augmented Reality (AR) to project 3D furniture models into users' rooms in real-time, enabling immersive visualization. Additionally, it provides tailored recommendations, including complementary furniture options to complete room designs. Deployed as a mobile app, Ablakash delivers a seamless, end-to-end experience for personalized interior design.
+
 ## Progress: currently working on it and due to our limited quota in Azure, **I will close the server in 25/2/2026**
 
 ## Frontend repo: https://github.com/MohamedREDA-24/AR_APP
