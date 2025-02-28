@@ -51,7 +51,6 @@ Revolutionizing interior design with intelligent furniture recommendations and i
 [Azure-badge]: https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white
 [Azure-url]: https://azure.microsoft.com/
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
 ## Overview
@@ -130,4 +129,3 @@ Ensure you have the following installed:
    uvicorn main:app --host 0.0.0.0 --port 8000
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
