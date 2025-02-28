@@ -67,12 +67,12 @@ graph TD
     C -->|Analyze<br/>Conversation| D[Pinecone<br/>Vector DB]
     D --> E{Match<br/>Found?}
     E -->|Yes| F[Generate<br/>Recommendation]
-    E -->|No| G[CrewAI<br/>Web Scraping]
+    E -->|No| H[CrewAI<br/>Web Scraping]
     G --> F
     F --> H[AR<br/>Visualization]
     H --> I[3D Model<br/>Projection]
-    I --> J[User<br/>Feedback]
-    J -->|Reinforcement<br/>Learning| C
+    I -->B
+
     
     style F fill:#4CAF50,color:white
     style G fill:#F44336,color:white
