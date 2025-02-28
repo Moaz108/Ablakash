@@ -114,7 +114,7 @@ We implement a modular agent framework :
 - Web Scraper Agent: Fallback search via Tavily API when local matches fail
 - Router Function: Orchestrates agent workflow based on image-derived attributes (wall color, room dimensions, style)
   
-  ### Prerequisites
+### Prerequisites
 Ensure you have the following installed:
 - Python 3.12
 - FastAPI
