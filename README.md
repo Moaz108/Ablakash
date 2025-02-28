@@ -1,8 +1,8 @@
 # Ablakash
-## Overview
-Ablakash is an AI-driven platform that transforms how users discover and visualize furniture for their spaces. Leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), the system analyzes user conversations to recommend optimal furniture from a curated database. If no match is found, it employs CrewAI for web scraping and searching across external sources.
+AI-Powered Furniture Recommendation & Augmented Reality Visualization
+Revolutionizing interior design with intelligent furniture recommendations and immersive AR experiences.
 
-The platform integrates Augmented Reality (AR) to project 3D furniture models into users' rooms in real-time, enabling immersive visualization. Additionally, it provides tailored recommendations, including complementary furniture options to complete room designs. Deployed as a mobile app, Ablakash delivers a seamless, end-to-end experience for personalized interior design.
+
 
 ## Progress: currently working on it and due to our limited quota in Azure, **I will close the server in 25/2/2026**
 
@@ -54,6 +54,30 @@ The platform integrates Augmented Reality (AR) to project 3D furniture models in
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
+## Overview
+Ablakash is an AI-driven platform that transforms how users discover and visualize furniture for their spaces. Leveraging Large Language Models (LLMs) and Retrieval-Augmented Generation (RAG), the system analyzes user conversations to recommend optimal furniture from a curated database. If no match is found, it employs CrewAI for web scraping and searching across external sources.
+
+The platform integrates Augmented Reality (AR) to project 3D furniture models into users' rooms in real-time, enabling immersive visualization. Additionally, it provides tailored recommendations, including complementary furniture options to complete room designs. Deployed as a mobile app, Ablakash delivers a seamless, end-to-end experience for personalized interior design.
+
+## Key Features
+
+- Intelligent Recommendations:
+   - Leverages LLM prompt engineering and RAG to analyze user preferences and recommend furniture.
+   - Uses CrewAI for web scraping and external searches when no match is found in the database.
+   - Fine-tuned with QLoRA for efficient, low-resource adaptation to specific user needs.
+
+- Immersive AR Visualization:
+   - Projects 3D furniture models into users' rooms using real-time imagery.
+   - Enhances decision-making with lifelike previews of furniture in the user's space.
+
+- Tailored Descriptions:
+   - Generates detailed, personalized recommendations, including complementary furniture options.
+   - Ensures cohesive room designs with style-matching suggestions.
+
+- Scalable Backend:
+
+   - Utilizes Pinecone for vector search, enabling fast and accurate retrieval of furniture options.
+   - Deployed as a mobile app for on-the-go accessibility (using Kotlin).
 
 ### Prerequisites
 Ensure you have the following installed:
