@@ -106,6 +106,17 @@ graph TD
 - Developed AR functionality for real-time 3D visualization and personalized recommendations in a mobile app.
 - Currently working on fine-tuning the model using QLoRA for improved performance.
 
+## Key Additions Explained (Dataset Creation)
+- 1.IKEA-Specific Scraping:
+    - Targeted scraping of IKEA's product catalog for high-quality furniture data.
+    - Extracted metadata (dimensions, materials, styles) to enrich the recommendation engine.
+- 2.Florence-2-Large:
+    - Replaced BLIP with Florence-2-Large for advanced image captioning.
+    - Generates detailed descriptions (e.g., "beige chaise lounger with modern styling") for better feature extraction.
+- 3.Trellis 3D Engine:
+    - Integrated Trellis for real-time 3D rendering of furniture models.
+    - Enables AR visualization with accurate spatial placement in user environments.
+
 
 ## Another Solution 
 We implement a modular agent framework :
@@ -113,7 +124,11 @@ We implement a modular agent framework :
 - RAG Agent: Leverages Pinecone for semantic retrieval of furniture data
 - Web Scraper Agent: Fallback search via Tavily API when local matches fail
 - Router Function: Orchestrates agent workflow based on image-derived attributes (wall color, room dimensions, style)
-  
+
+## 📱 Mobile Backend Integration
+Kotlin Mobile App → FastAPI Middleware → Azure Cloud Services
+- Mobile requests are routed through a FastAPI layer for preprocessing
+- Azure handles scaling, authentication, and real-time response orchestration
 ### Prerequisites
 Ensure you have the following installed:
 - Python 3.12
