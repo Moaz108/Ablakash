@@ -7,7 +7,7 @@ Revolutionizing interior design with intelligent furniture recommendations and i
 ## Progress: currently working on it and due to our limited quota in Azure, **I will close the server in 25/2/2026**
 
 ## Frontend repo: https://github.com/MohamedREDA-24/AR_APP
-## APK Link: [https://qr.me-qr.com/gOSg8ov9](https://drive.google.com/drive/folders/1B5peiR1DMgpQquF19WnsrTn-BOL5U8ss?usp=drive_link)
+## APK Link: [https://qr.me-qr.com/gOSg8ov9](https://drive.google.com/file/d/1g1YO1wSseR9Uzukzkmi7j8wNo9RDh3nf/view?usp=drive_link)
 ![image](https://github.com/user-attachments/assets/631186ae-1f6d-4990-ac57-d1b4527c02cf)
 ### Built With
 [![FastAPI][FastAPI-badge]][FastAPI-url]
