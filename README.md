@@ -60,18 +60,23 @@ Ablakash is an AI-driven platform that transforms how users discover and visuali
 The platform integrates Augmented Reality (AR) to project 3D furniture models into users' rooms in real-time, enabling immersive visualization. Additionally, it provides tailored recommendations, including complementary furniture options to complete room designs. Deployed as a mobile app, Ablakash delivers a seamless, end-to-end experience for personalized interior design.
 ## Use Case Diagram
 
-```   graph TD
-       A[User Input] --> B(Mobile App)
-       B --> C{LLM/RAG Processing}
-       C -->|Analyze Conversation| D[Pinecone Vector DB<br/>Furniture Search]
-       D --> E{Match Found?}
-       E -->|Yes| F[Generate Recommendation<br/>with QLoRA-Tuned Model]
-       E -->|No| G[CrewAI Web Scraping<br/>External Search]
-       G --> F
-       F --> H[AR Visualization Engine]
-       H --> I[3D Model Projection<br/>+ Style Suggestions]
-       I --> J[User Feedback]
-       J -->|Reinforcement Learning| C
+```mermaid
+graph TD
+    A[User Input] --> B[Mobile App]
+    B --> C{LLM/RAG<br/>Processing}
+    C -->|Analyze<br/>Conversation| D[Pinecone<br/>Vector DB]
+    D --> E{Match<br/>Found?}
+    E -->|Yes| F[Generate<br/>Recommendation]
+    E -->|No| G[CrewAI<br/>Web Scraping]
+    G --> F
+    F --> H[AR<br/>Visualization]
+    H --> I[3D Model<br/>Projection]
+    I --> J[User<br/>Feedback]
+    J -->|Reinforcement<br/>Learning| C
+    
+    style F fill:#4CAF50,color:white
+    style G fill:#F44336,color:white
+    style D fill:#2196F3,color:white
 ```
 ## Key Features
 
