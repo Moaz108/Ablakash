@@ -4,8 +4,6 @@
 ## Frontend repo: https://github.com/MohamedREDA-24/AR_APP
 ## APK Link: [https://qr.me-qr.com/gOSg8ov9](https://drive.google.com/drive/folders/1B5peiR1DMgpQquF19WnsrTn-BOL5U8ss?usp=drive_link)
 ![image](https://github.com/user-attachments/assets/631186ae-1f6d-4990-ac57-d1b4527c02cf)
-
-
 ### Built With
 [![FastAPI][FastAPI-badge]][FastAPI-url]
 [![CrewAI][CrewAI-badge]][CrewAI-url]
