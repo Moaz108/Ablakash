@@ -70,7 +70,7 @@ graph TD
     E -->|No| G[CrewAI<br/>Web Scraping]
     G --> I
     F --> H[AR<br/>Visualization]
-    H --> I[3D Model<br/>Projection]
+    H --> I[END]
     I -->B
 
     
