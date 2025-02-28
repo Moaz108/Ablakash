@@ -102,7 +102,7 @@ graph TD
 - Implemented a RAG pipeline using MPNet-Base-V2 for attribute extraction, embedding generation, and retrieval via Pinecone.
 - Designed a conversation state model with distinct phases: feature collection, recommendation, awaiting alternatives, ending, and restart confirmation.
 - Integrated CrewAI agents for automated furniture search, utilizing TavilyClient for web-based retrieval.
-- Enhanced AI-driven interpretation using BLIP + Gemini, enabling image-based feature extraction and furniture recommendation.
+- Enhanced AI-driven interpretation using BLIP + Gemini, enabling image-based feature extraction and style-matching suggestions.
 - Developed AR functionality for real-time 3D visualization and personalized recommendations in a mobile app.
 - Currently working on fine-tuning the model using QLoRA for improved performance.
 
@@ -111,7 +111,6 @@ graph TD
     - Targeted scraping of IKEA's product catalog for high-quality furniture data.
     - Extracted metadata (dimensions, materials, styles) to enrich the recommendation engine.
 - 2.Florence-2-Large:
-    - Replaced BLIP with Florence-2-Large for advanced image captioning.
     - Generates detailed descriptions (e.g., "beige chaise lounger with modern styling") for better feature extraction.
 - 3.Trellis 3D Engine:
     - Integrated Trellis for real-time 3D rendering of furniture models.
