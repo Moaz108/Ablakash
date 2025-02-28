@@ -98,7 +98,7 @@ graph TD
    - Deployed as a mobile app for on-the-go accessibility (using Kotlin).
 
 
-## 🛠️ Technical Details 
+## 🛠️ Some Technical Details 
 - Implemented a RAG pipeline using MPNet-Base-V2 for attribute extraction, embedding generation, and retrieval via Pinecone.
 - Designed a conversation state model with distinct phases: feature collection, recommendation, awaiting alternatives, ending, and restart confirmation.
 - Integrated CrewAI agents for automated furniture search, utilizing TavilyClient for web-based retrieval.
