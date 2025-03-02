@@ -142,8 +142,8 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/MrSa3dola/AR_RAG.git
-   cd AR_RAG
+   git clone https://github.com/Moaz108/Ablakash.git
+   cd Ablakash
    ```
 
 2. Create and activate a virtual environment:
